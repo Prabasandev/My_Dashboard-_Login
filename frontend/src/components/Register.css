@@ -1,0 +1,85 @@
+.register-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f6f8fa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.register-box {
+  width: 400px;
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px #d1d5da;
+}
+
+.register-box h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.register-label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: block;
+  font-weight: 600;
+}
+
+.register-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #d1d5da;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.register-btn {
+  width: 100%;
+  background-color: #1a73e8; /* Primary blue */
+  color: white;
+  padding: 10px;
+  border: none;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.register-btn:hover {
+  background-color: #1669c1; /* Slightly darker blue */
+}
+
+
+.error-msg {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.success-msg {
+  color:  #1a73e8;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.signin-link {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 15px;
+}
+.register-logo-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.register-logo {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
